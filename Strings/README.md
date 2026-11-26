@@ -7,5 +7,4 @@ coding problems solved using Java.
 
 1. Reverse String
 2. Valid Palindrome
-3. Valid Anagram
-4. Longest Common Prefix
+3. Stone Removal Game - 3360
