@@ -1,0 +1,25 @@
+class Valid_Anagram_242{
+	public static void main(String[]args){
+		String s = "silent";
+		String t = "listen";
+		boolean result = isPanagram(s,t);
+		System.out.println(result);
+	}
+	public static boolean isPanagram(String s, String t){
+		if(s.length() != t.length()){
+			return false;
+		}
+		int[] count = new int[26];
+		for(int i=0;i<s.length();i++){
+			count[s.charAt(i)- 'a']++;
+			count[t.charAt(i)- 'a']--;
+			
+		}
+		for(int i=0;i<26;i++){
+			if(count[i] != 0){
+			return false;	
+			}
+		}
+	return true;
+	}
+}
