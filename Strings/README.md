@@ -8,3 +8,4 @@ coding problems solved using Java.
 1. Reverse String
 2. Valid Palindrome
 3. Stone Removal Game - 3360
+4. Valid Anagram - 242
